@@ -1,5 +1,5 @@
 package Add
 
-func Add(x, y int) (z int) {
-	return x + y - 1 + 2
+func Add(x, y, z int) (delta int) {
+	return x + y + z
 }
